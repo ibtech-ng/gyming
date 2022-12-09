@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none !important;
+}
+:root{
+    --navcolor: #FD3C3D;
+    --ttcolo:#20232A;
+    --navfont: 'Nunito Sans', sans-serif;
+}
+.red{
+    background-color: var(--navcolor);
+}
+.dd{
+    background-color: var(--ttcolo);
+}
+#bg-img{
+    background-image: url(../images/gym-bg.jpg);
+    background-position: center;
+    height: 90vh;
+    max-width: 100%;
+}
+footer li a{
+    color: white;
+    text-align: left;
+     font-family: var(--navfont);
+    
+}
+.general-container{
+    display: flex;
+    justify-content: center;
+}
+.icionf{
+    width: 40px;
+    height: 40px;
+}
+.footer-container{
+    width: 700px;
+    display: flex;
+    justify-content: space-between; 
+}
+footer{
+    justify-content: center;
+    width: 700px;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.footer h1{
+    color: white;
+
+}
+.footer p{
+    color: white !important;
+}
+footer .col p a{
+    color: white !important;
+    list-style: none !important;
+}
+
+.ddt{
+    margin-top: -500px;
+    margin-left: 400px;
+}
+.ptext{
+    height: 200px;
+    
+}
+.general-icion{
+    display: flex;
+    justify-content: center;
+}
+.iciond{
+    width: 20px;
+    height: 20px;
+}
+.general-icio{
+    display: flex;
+     margin-top: -20px; 
+}
+.homedd{
+  justify-content: center;
+}
+.homedd a{
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.icon-circle{
+    width:30px !important;
+    height: 30px !important;
+    /* border-radius: 50% !important; */
+    /* border: 3px solid white !important; */
+}
+.bullet{
+    list-style: disc !important;
+}
+
+@media screen and (max-width: 767px) {
+    .blog-img{
+        width: 90% !important;
+    }
+}
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+ 
+
+
